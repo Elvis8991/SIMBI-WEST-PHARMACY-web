@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+nav{
+    position: absolute;
+    display: flex;
+    margin: 0 0 0 330px;
+}
+nav a{
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover{
+    color: red;
+}
+.search_bar{
+    position: absolute;
+    margin: 30px 0 0 400px;
+}
+.search_bar input{
+    border: none;
+    height: 40px;
+    width: 600px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid black;
+    font-size: large;
+    padding: 10px;
+}
+.search_bar span{
+    position: absolute;
+    background-color: orange;
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.material-symbols-outlined {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 900,
+    'GRAD' 0,
+    'opsz' 24
+}
+.material-symbols-outlined:hover{
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    margin: 100px 0 0 130px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    min-height: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 700px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    cursor: pointer;
+    padding: 30px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    width: 200px;
+}
+.dropdown-content a:hover{
+    color: red;
+}
+.HealthDropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropbtn{
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropbtn:hover{
+    background-color: #ddd;
+}
+.health_care{
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.health_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 800px;
+    column-count: 3;
+    column-gap: 90px;
+}
+.health_care:hover .health_content {
+    display: block;
+}
+.health_content a{
+    display: block;
+    z-index: 1;
+    font-size: small;
+    text-transform: capitalize;
+    padding: 4px;
+}
+.health_content a:hover{
+    background-color: #ddd;
+}
+.brandsdrop{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin: -20px 0 0 120px;
+}
+.brands_content a{
+    display: block;
+    z-index: 1;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 4px;
+}
+.container{
+    margin: 40px 0 0 0;
+    display: flex;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(myimages/office.jpeg);
+}
