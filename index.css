@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+   
 }
 body{
     margin: 0%;
@@ -13,7 +14,7 @@ header{
     padding: 0%;
     height: 50px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(1, 1, 102);
 }
 nav{
     position: absolute;
@@ -31,26 +32,26 @@ nav a:hover{
 }
 .search_bar{
     position: absolute;
-    margin: 30px 0 0 400px;
+    margin: 30px 0 0 620px;
 }
 .search_bar input{
     border: none;
     height: 40px;
-    width: 600px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    width: 450px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
     border: 1px solid black;
-    font-size: large;
+    font-size: small;
     padding: 10px;
 }
 .search_bar span{
     position: absolute;
-    background-color: orange;
+    background-color: cornflowerblue;
     height: 40px;
     width: 60px;
     border: 1px solid black;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 .material-symbols-outlined {
     position: relative;
@@ -65,102 +66,687 @@ nav a:hover{
 .material-symbols-outlined:hover{
     cursor: pointer;
 }
-.dropdown{
-    position: relative;
-    display: inline-block;
-    margin: 100px 0 0 130px;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200px;
-    min-height: 400px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    width: 700px;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
-    cursor: pointer;
-    padding: 30px;
-}
-.dropdown-content a{
-    text-decoration: none;
-    width: 200px;
-}
-.dropdown-content a:hover{
-    color: red;
-}
-.HealthDropdown{
-    float: left;
-    overflow: hidden;
-}
-.dropbtn{
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-.dropbtn:hover{
-    background-color: #ddd;
-}
-.health_care{
-    font-size: small;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.health_content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 50px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    width: 800px;
-    column-count: 3;
-    column-gap: 90px;
-}
-.health_care:hover .health_content {
-    display: block;
-}
-.health_content a{
-    display: block;
-    z-index: 1;
-    font-size: small;
+.home__nav{
     text-transform: capitalize;
-    padding: 4px;
-}
-.health_content a:hover{
-    background-color: #ddd;
-}
-.brandsdrop{
+    font-family:  "Poppins", sans-serif;
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    margin: -20px 0 0 120px;
+    margin: 40px 0 0 30px;
+    color: rgb(8, 8, 44);
 }
-.brands_content a{
-    display: block;
-    z-index: 1;
-    font-size: small;
-    text-transform: uppercase;
-    padding: 4px;
+.home__nav a{
+    padding: 0 0 0 30px;
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    margin: 0 0 0 600px;
+    display: inline-flex;
+}
+.login a{
+    color: black;
+    align-items: center;
+    justify-items: center;
+}
+.login a:hover{
+    color: purple;
 }
 .container{
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
     display: flex;
     position: absolute;
-    height: 500px;
+    height: 540px;
     width: 100%;
+    background-image: url(myimages/back.webp);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container h1{
+    text-transform: capitalize;
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+    margin: 140px 0 0 20px;
+    width: 780px;
+    text-align: center;
+    color: black;
+    z-index: 3;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+}
+.container p{
+    margin: 250px 0 0 50px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+}
+.buttons{
+    position: absolute;
+    margin: 300px 0 0 160px;
+}
+.about{
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color: #fff;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about:hover{
+    background-color: cornflowerblue;
+    transition-duration: 3s;
+}
+.book{
+    height: 60px;
+    width: 250px;
+    border: 2px solid darkblue;
+    border-radius: 16px;
+    text-transform: uppercase;
+    background-color: #ddd;
+    color: darkblue;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.book:hover{
+    background-color: darkblue;
+    color: #fff;
+    transition-duration: 3s;
+}
+.content{
+    position: absolute;
+    margin: 570px 0 0 0;
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+}
+.box1{
+    height: 350px;
+    width: 250px;
+    background-image: url(myimages/doc.webp);
+    background-size: cover;
+    margin: 20px 0 0 50px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    border: #fff solid 5px;
+    border-radius: 16px;
+    z-index: 1;
+}
+.box2{
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    background-color: rgb(1, 1, 102);
+    margin: 70px 0 0 10px;
+    border-radius: 16px;
+}
+.box2 p{
+    margin: 100px 0 0 330px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Armata", sans-serif;
+}
+.box3{
+    height: 350px;
+    width: 250px;
+    background-image: url(myimages/medicine.jpg);
+    background-size: cover;
+    margin: 20px 0 0 440px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    border: #fff solid 5px;
+    border-radius: 16px;
+    z-index: 1;
+}
+.box4{
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    background-color: rgb(1, 1, 102);
+    margin: 70px 0 0 700px;
+    border-radius: 16px;
+}
+.box4 p{
+    margin: 100px 0 0 330px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Armata", sans-serif;
+}
+.brand__logos{
+    position: absolute;
+    margin: 1000px 0 0 0;
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid rgb(1, 1, 102);
+    border-bottom: 2px solid rgb(1, 1, 102);
+}
+.brand__logos img{
+    width: 160px;
+    height: 100px;
+    display: inline-flex;
+    padding-left: 15px;
+}
+.offers{
+    position: absolute;
+    margin: 1130px 0 0 0;
+    height: 450px;
+    width: 100%;
+}
+.offers h2{
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    color: black;
+    margin: 0 0 0 600px;
+    font-size: 30px;
+}
+.offer__boxes{
+    position: relative;
+    display: inline-flex;
+    margin-top: 20px;
+}
+.offer__box1{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/pheburane.jpeg);
     background-position: center;
     background-size: cover;
-    background-image: url(myimages/office.jpeg);
 }
+.offer__box2{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/duvyzat.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.offer__box3{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/obangi.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.offer__box4{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/pulsegaurd.webp);
+    background-position: center;
+    background-size: cover;
+}
+.offer__box5{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/tranquillonin.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.offer__box6{
+    height: 300px;
+    width: 200px;
+    margin: 5px 0 0 20px;
+    background-image: url(myimages/xtandi_945224.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.offer__buttons{
+    margin: 5px 0 0 20px;
+    display: inline;
+}
+.btns1{
+    position: absolute;
+}
+.cartbtn1{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 20px;
+    border: 2px solid black;
+}
+.productbtn1{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btns2{
+    position: absolute;
+}
+.cartbtn2{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 240px;
+    border: 2px solid black;
+}
+.productbtn2{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btns3{
+    position: absolute;
+}
+.cartbtn3{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 470px;
+    border: 2px solid black;
+}
+.productbtn3{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btns4{
+    position: absolute;
+}
+.cartbtn4{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 690px;
+    border: 2px solid black;
+}
+.productbtn4{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btns5{
+    position: absolute;
+}
+.cartbtn5{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 910px;
+    border: 2px solid black;
+}
+.productbtn5{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.btns6{
+    position: absolute;
+}
+.cartbtn6{
+    height: 30px;
+    width: 90px;
+    margin: 20px 0 0 1135px;
+    border: 2px solid black;
+}
+.productbtn6{
+    height: 30px;
+    width: 90px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.service{
+    position: absolute;
+    margin: 1600px 0 0 0;
+    height: 500px;
+    width: 100%;
+}
+.diff{
+    position: absolute;
+    margin: 10px 0 0 30px;
+}
+.diff h1{
+    width: 600px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.diff p{
+    width: 500px;
+    font-family: "Poppins", sans-serif;
+}
+.aboutbtn{
+    margin: 40px 0 0 30px;
+    height: 70px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 32px;
+    background-color: rgb(1, 1, 102);
+    color: #ddd;
+}
+.small__box{
+    position: relative;
+    margin: 20px 0 0 750px;
+    background-color: #e7e4e4;
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+.small__box h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.small__box p{
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.service__content{
+    position: absolute;
+    margin: 2200px 0 0 0;
+    height: 700px;
+    width: 100%;
+}
+.service__content h4{
+    color: cornflowerblue;
+    position: absolute;
+    margin: 20px 0 0 550px;
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.service__content h2{
+    color: blue;
+    margin: 60px 0 0 460px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service__boxes{
+    position: absolute;
+    display: inline-flex;
+}
+.service__box1{
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    margin: 50px 0 0 20px;
+    border-radius: 32px;
+}
+.service__box1 img{
+    height: 250px;
+    width: 400px;
+    border-radius: 32px;
+}
+.service__box1 h3{
+    font-size: 30px;
+    margin: 15px 0 0 20px;
+    text-transform: capitalize;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+.service__box1 p{
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+    margin: 0 0 0 20px;
+}
+.service__box1 a{
+    text-decoration: none;
+    position: absolute;
+    margin: 50px 0 0 30px;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+.service__box1 a:hover{
+    color: purple;
+}
+.service__box2{
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    margin: 50px 0 0 20px;
+    border-radius: 32px;
+}
+.service__box2 img{
+    height: 250px;
+    width: 400px;
+    border-radius: 32px;
+}
+.service__box2 h3{
+    font-size: 30px;
+    margin: 15px 0 0 20px;
+    text-transform: capitalize;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+.service__box2 p{
+    font-family: "Poppins", sans-serif;
+    width: 370px;
+    margin: 0 0 0 20px;
+}
+.service__box2 a{
+    text-decoration: none;
+    position: absolute;
+    margin: 30px 0 0 30px;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+.service__box2 a:hover{
+    color: purple;
+}
+.service__box3{
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    margin: 50px 0 0 20px;
+    border-radius: 32px;
+}
+.service__box3 img{
+    height: 250px;
+    width: 400px;
+    border-radius: 32px;
+}
+.service__box3 h3{
+    font-size: 30px;
+    margin: 15px 0 0 20px;
+    text-transform: capitalize;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: bold;
+}
+.service__box3 p{
+    font-family: "Poppins", sans-serif;
+    width: 370px;
+    margin: 0 0 0 20px;
+}
+.service__box3 a{
+    text-decoration: none;
+    position: absolute;
+    margin: 30px 0 0 30px;
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+.service__box3 a:hover{
+    color: purple;
+}
+.testimonials{
+    position: absolute;
+    margin: 2900px 0 0 0;
+    height: 500px;
+    width: 100%;
+    background-color: #ddd;
+}
+.testimonials img{
+    position: absolute;
+    height: 500px;
+    width: auto;
+    border-right: 12px solid rgb(1, 1, 102);
+}
+.testimonials h2{
+    position: absolute;
+    margin: 150px 0 0 600px;
+    text-transform: capitalize;
+    color: rgb(1, 1, 102);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.testimonials p{
+    position: absolute;
+    margin: 210px 0 0 650px;
+    width: 580px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.blog{
+    position: absolute;
+    margin: 3450px 0 0 0;
+    height: 800px;
+    width: 100%;
+}
+.blog h2{
+    text-transform: capitalize;
+    color: rgb(8, 8, 44);
+    margin: 20px 0 0 490px;
+    font-size: 40px;
+}
+.blog__boxesup{
+    position: absolute;
+    display: inline-flex;
+}
+.blog__box1{
+    height: 250px;
+    width: 350px;
+    margin: 50px 0 0 30px;
+}
+.blog__box1 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box1 a:hover{
+    color: red;
+}
+.blog__box2{
+    height: 250px;
+    width: 350px;
+    margin: 50px 0 0 90px;
+}
+.blog__box2 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box2 a:hover{
+    color: red;
+}
+.blog__box3{
+    height: 250px;
+    width: 350px;
+    margin: 50px 0 0 90px;
+}
+.blog__box3 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box3 a:hover{
+    color: red;
+}
+.blog__boxesdwn{
+    position: absolute;
+    display: inline-flex;
+}
+.blog__box4{
+    height: 250px;
+    width: 350px;
+    margin: 420px 0 0 30px;
+}
+.blog__box4 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box4 a:hover{
+    color: red;
+}
+
+.blog__box5{
+    height: 250px;
+    width: 350px;
+    margin: 420px 0 0 90px;
+}
+.blog__box5 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box5 a:hover{
+    color: red;
+}
+.blog__box6{
+    height: 250px;
+    width: 350px;
+    margin: 420px 0 0 90px;
+}
+.blog__box6 a{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.blog__box6 a:hover{
+    color: red;
+}
+footer{
+    margin: 4300px 0 0 0;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(1, 1, 102);
+}
+.logo{
+    position: absolute;
+}
+.logo h2{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 0 0 20px;
+    font-size: 30px;
+}
+.socials{
+    position: absolute;
+    margin: 70px 0 0 900px;
+}
+.fa-brands fa-square-instagram{
+    font-size: 32px;
+    color: red;
+    position: absolute;
+    background-color: #9b9999;
+}
+.socials a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.lines{
+    margin: 100px 0 0 70px;
+    height: 3px;
+    width: 1200px;
+    background-color: #9b9999;
+}
+
+/* shopping css*/
