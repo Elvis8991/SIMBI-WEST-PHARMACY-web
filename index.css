@@ -19,39 +19,37 @@ header{
 nav{
     position: absolute;
     display: flex;
-    margin: 0 0 0 330px;
+    margin: 0 0 0 200px;
 }
 nav a{
     padding: 20px;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+    text-transform: capitalize;
 }
 nav a:hover{
     color: red;
 }
 .search_bar{
     position: absolute;
-    margin: 30px 0 0 620px;
+    margin: 15px 0 0 740px;
+    z-index: 3;
 }
 .search_bar input{
+    position: absolute;
     border: none;
     height: 40px;
-    width: 450px;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-    border: 1px solid black;
+    width: 400px;
+    border-radius: 16px;
+    border: 0.5px solid black;
     font-size: small;
     padding: 10px;
 }
 .search_bar span{
     position: absolute;
-    background-color: cornflowerblue;
-    height: 40px;
-    width: 60px;
-    border: 1px solid black;
-    border-top-right-radius: 16px;
-    border-bottom-right-radius: 16px;
+    margin: 0 0 0 350px;
+    color: #9b9999;
 }
 .material-symbols-outlined {
     position: relative;
@@ -76,22 +74,148 @@ nav a:hover{
 .home__nav a{
     padding: 0 0 0 30px;
     text-decoration: none;
+    
 }
 .login{
     position: absolute;
-    margin: 0 0 0 600px;
+    margin: 0 0 0 900px;
     display: inline-flex;
 }
 .login a{
-    color: black;
-    align-items: center;
-    justify-items: center;
+    color: #fff;
+    width: 200px;
 }
 .login a:hover{
     color: purple;
 }
+
+/* shopping css*/
+.Whatsapp{
+    position: absolute;
+    margin: -35px 0 0 1150px;
+    width: 150px;
+}
+.Whatsapp a{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Whatsapp a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.shop__nav{
+    text-transform: capitalize;
+    font-family:  "Poppins", sans-serif;
+    font-size: 15px;
+    margin: 40px 0 0 5px;
+    color: rgb(8, 8, 44);
+    padding: 0 0 0 10px;
+}
+.shop__nav a{
+    text-decoration: none;
+}
+.dropdown__btns{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 0 0 0;
+}
+.s1{
+    margin: 20px 0 0 50px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-flex;
+}
+.dropdown__content{
+    display: none;
+    margin: 45px 0 0 50px;
+    position: absolute;
+    min-width: 300px;
+    background-color: #ffffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.dropdown__content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+}
+.dropdown__content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown__content {
+    display: block;
+}
+.s2{
+    margin: 20px 0 0 50px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+}
+.drop-down{
+    position: relative;
+    display: inline-flex;
+}
+.category__content{
+    display: none;
+    margin: 45px 0 0 50px;
+    position: absolute;
+    min-width: 190px;
+    background-color: #ffffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+.category__content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+}
+.category__content a:hover {
+    background-color: #ddd;
+}
+.drop-down:hover .category__content {
+    display: block;
+}
+.s3{
+    margin: 20px 0 0 50px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+}
+.s4{
+    margin: 20px 0 0 50px;
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+}
+
 .container{
-    margin: 30px 0 0 0;
+    margin: 70px 0 0 0;
     display: flex;
     position: absolute;
     height: 540px;
@@ -155,251 +279,298 @@ nav a:hover{
     color: #fff;
     transition-duration: 3s;
 }
-.content{
+.offers-container{
     position: absolute;
-    margin: 570px 0 0 0;
-    height: 300px;
+    margin-top: 630px;
+    height: 1200px;
     width: 100%;
+}
+.offers-container h2{
+    text-transform: capitalize;
+    color: cornflowerblue;
+    margin: 0px 0 0 600px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.offers-boxes{
+    position: absolute;
     display: inline-flex;
 }
 .box1{
-    height: 350px;
-    width: 250px;
-    background-image: url(myimages/doc.webp);
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 40px 0 0 60px;
+    background-image: url(/myimages/obangi.jpeg);
+    background-position: center;
     background-size: cover;
-    margin: 20px 0 0 50px;
-    text-transform: capitalize;
-    color: black;
-    font-size: 20px;
-    border: #fff solid 5px;
-    border-radius: 16px;
-    z-index: 1;
+    border: 3px solid darkblue;
+    border-radius: 8px;
 }
 .box2{
     position: absolute;
-    height: 250px;
-    width: 600px;
-    background-color: rgb(1, 1, 102);
-    margin: 70px 0 0 10px;
-    border-radius: 16px;
-}
-.box2 p{
-    margin: 100px 0 0 330px;
+    height: 300px;
     width: 200px;
-    text-align: center;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: #fff;
-    font-family: "Armata", sans-serif;
+    margin: 40px 0 0 350px;
+    background-image: url(/myimages/avandia.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
 }
 .box3{
-    height: 350px;
-    width: 250px;
-    background-image: url(myimages/medicine.jpg);
-    background-size: cover;
-    margin: 20px 0 0 440px;
-    text-transform: capitalize;
-    color: black;
-    font-size: 20px;
-    border: #fff solid 5px;
-    border-radius: 16px;
-    z-index: 1;
-}
-.box4{
     position: absolute;
-    height: 250px;
-    width: 600px;
-    background-color: rgb(1, 1, 102);
-    margin: 70px 0 0 700px;
-    border-radius: 16px;
-}
-.box4 p{
-    margin: 100px 0 0 330px;
+    height: 300px;
     width: 200px;
-    text-align: center;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: #fff;
-    font-family: "Armata", sans-serif;
+    margin: 40px 0 0 650px;
+    background-image: url(/myimages/pulsegaurd.webp);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
 }
-.brand__logos{
+.obangi{
     position: absolute;
-    margin: 1000px 0 0 0;
-    height: 100px;
-    width: 100%;
-    border-top: 2px solid rgb(1, 1, 102);
-    border-bottom: 2px solid rgb(1, 1, 102);
-}
-.brand__logos img{
-    width: 160px;
-    height: 100px;
-    display: inline-flex;
-    padding-left: 15px;
-}
-.offers{
-    position: absolute;
-    margin: 1130px 0 0 0;
-    height: 450px;
-    width: 100%;
-}
-.offers h2{
-    text-transform: capitalize;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: underline;
+    width: 300px;
+    text-decoration: none;
+    margin: 360px 0 0 40px;
     color: black;
-    margin: 0 0 0 600px;
-    font-size: 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.obangi:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Avandia{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 360px 0 0 350px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Avandia:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.pulse{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 360px 0 0 650px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.pulse:hover{
+    color: purple;
+    text-decoration: underline;
 }
 .offer__boxes{
-    position: relative;
-    display: inline-flex;
-    margin-top: 20px;
-}
-.offer__box1{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/pheburane.jpeg);
-    background-position: center;
-    background-size: cover;
-}
-.offer__box2{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/duvyzat.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.offer__box3{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/obangi.jpeg);
-    background-position: center;
-    background-size: cover;
-}
-.offer__box4{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/pulsegaurd.webp);
-    background-position: center;
-    background-size: cover;
-}
-.offer__box5{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/tranquillonin.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.offer__box6{
-    height: 300px;
-    width: 200px;
-    margin: 5px 0 0 20px;
-    background-image: url(myimages/xtandi_945224.jpg);
-    background-position: center;
-    background-size: cover;
-}
-.offer__buttons{
-    margin: 5px 0 0 20px;
-    display: inline;
-}
-.btns1{
     position: absolute;
+    display: inline-flex;
+}
+.offer__boxes h2{
+    position: absolute;
+    margin-top: 530px;
+}
+.b1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 600px 0 0 60px;
+    background-image: url(/myimages/tranquillonin.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.b2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 600px 0 0 350px;
+    background-image: url(/myimages/pheburane.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.b3{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 600px 0 0 650px;
+    background-image: url(/myimages/xtandi_945224.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.addbtn1{
+    position: absolute;
+    margin: 420px 0 0 40px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn1{
+    position: absolute;
+    margin: 420px 0 0 150px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn2{
+    position: absolute;
+    margin: 420px 0 0 340px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn2{
+    position: absolute;
+    margin: 420px 0 0 450px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn3{
+    position: absolute;
+    margin: 420px 0 0 650px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn3{
+    position: absolute;
+    margin: 420px 0 0 760px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
 }
 .cartbtn1{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 20px;
-    border: 2px solid black;
+    position: absolute;
+    margin: 980px 0 0 40px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
 }
 .productbtn1{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-.btns2{
     position: absolute;
+    margin: 980px 0 0 150px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
 }
 .cartbtn2{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 240px;
-    border: 2px solid black;
+    position: absolute;
+    margin: 980px 0 0 340px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
 }
 .productbtn2{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-.btns3{
     position: absolute;
+    margin: 980px 0 0 450px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
 }
 .cartbtn3{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 470px;
-    border: 2px solid black;
+    position: absolute;
+    margin: 980px 0 0 650px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
 }
 .productbtn3{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-.btns4{
     position: absolute;
+    margin: 980px 0 0 760px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
 }
-.cartbtn4{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 690px;
-    border: 2px solid black;
-}
-.productbtn4{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-.btns5{
+.tranquillonin{
     position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 920px 0 0 40px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
 }
-.cartbtn5{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 910px;
-    border: 2px solid black;
+.tranquillonin:hover{
+    color: purple;
+    text-decoration: underline;
 }
-.productbtn5{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
-}
-.btns6{
+.pheburane{
     position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 920px 0 0 340px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
 }
-.cartbtn6{
-    height: 30px;
-    width: 90px;
-    margin: 20px 0 0 1135px;
-    border: 2px solid black;
+.pheburane:hover{
+    color: purple;
+    text-decoration: underline;
 }
-.productbtn6{
-    height: 30px;
-    width: 90px;
-    margin-top: 20px;
-    border: 2px solid black;
+.XTANDI{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 920px 0 0 650px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.XTANDI:hover{
+    color: purple;
+    text-decoration: underline;
 }
 .service{
     position: absolute;
-    margin: 1600px 0 0 0;
+    margin: 1900px 0 0 0;
     height: 500px;
     width: 100%;
 }
@@ -449,7 +620,7 @@ nav a:hover{
 }
 .service__content{
     position: absolute;
-    margin: 2200px 0 0 0;
+    margin: 2500px 0 0 0;
     height: 700px;
     width: 100%;
 }
@@ -476,7 +647,7 @@ nav a:hover{
     background-color: #fff;
     height: 500px;
     width: 400px;
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 40px;
     border-radius: 32px;
 }
 .service__box1 img{
@@ -511,7 +682,7 @@ nav a:hover{
     background-color: #fff;
     height: 500px;
     width: 400px;
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 40px;
     border-radius: 32px;
 }
 .service__box2 img{
@@ -546,7 +717,7 @@ nav a:hover{
     background-color: #fff;
     height: 500px;
     width: 400px;
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 40px;
     border-radius: 32px;
 }
 .service__box3 img{
@@ -579,7 +750,7 @@ nav a:hover{
 }
 .testimonials{
     position: absolute;
-    margin: 2900px 0 0 0;
+    margin: 3170px 0 0 0;
     height: 500px;
     width: 100%;
     background-color: #ddd;
@@ -608,7 +779,7 @@ nav a:hover{
 }
 .blog{
     position: absolute;
-    margin: 3450px 0 0 0;
+    margin: 3700px 0 0 0;
     height: 800px;
     width: 100%;
 }
@@ -712,7 +883,7 @@ nav a:hover{
     color: red;
 }
 footer{
-    margin: 4300px 0 0 0;
+    margin: 4600px 0 0 0;
     position: absolute;
     height: 600px;
     width: 100%;
@@ -749,4 +920,831 @@ footer{
     background-color: #9b9999;
 }
 
-/* shopping css*/
+/* pain css */
+.slides-container{
+    position: absolute;
+    height: 300px;
+    width: 1200px;
+    margin: 100px 0 0 80px;
+    background-color: #9b9999;
+}
+.side-bar{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    margin: 450px 0 0 20px;
+    background-color: #9b9999;
+}
+.painpills-container{
+    position: absolute;
+    height: 500px;
+    width: 990px;
+    margin: 450px 0 0 340px;
+}
+.painpills-container span{
+    position: absolute;
+}
+.ace-para{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 20px;
+    background-image: url(/pills/aceclofenac-and-paracetamol-tablets_1661338500.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.ace-chlo{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 260px;
+    background-image: url(/pills/Aceclofenac-Chlorzoxazone-Paracetamol-Tablet-by-mediboon-pharma-.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.para{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 500px;
+    background-image: url(/pills/Parcetamol\ 500mg.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.dolan{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 750px;
+    background-image: url(/pills/ibuprofen.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.tramadol{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 20px;
+    background-image: url(/pills/tramadol-capsule.webp);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.tramadol-injection{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 260px;
+    background-image: url(/pills/tramadol.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.piro{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 500px;
+    background-image: url(/pills/Piroxicam-Capsules-20mg-Oral-Medicine.avif);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.para-caffe{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 750px;
+    background-image: url(/pills/para\ and\ caffeine.jfif);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.diclo{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 1000px 0 0 20px;
+    background-image: url(/pills/diclofenac.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+/*pills links*/
+.ace__para{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 20px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.ace__para:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.ace__chlo{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 320px 0 0 250px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.ace__chlo:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Para{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 510px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Para:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Dolan{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 760px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Dolan:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Tramadol{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 820px 0 0 10px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Tramadol:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.tramadol__injection{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 260px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.tramadol__injection:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Piro{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 820px 0 0 500px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Piro:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.para__caffe{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 750px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.para__caffe:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.Diclo{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 1310px 0 0 10px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.Diclo:hover{
+    color: purple;
+    text-decoration: underline;
+}
+/*pills buttons*/
+.acebtn1{
+    position: absolute;
+    margin: 400px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.acebtn2{
+    position: absolute;
+    margin: 400px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.chlobtn1{
+    position: absolute;
+    margin: 400px 0 0 250px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.chlobtn2{
+    position: absolute;
+    margin: 400px 0 0 360px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.parabtn1{
+    position: absolute;
+    margin: 400px 0 0 500px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.parabtn2{
+    position: absolute;
+    margin: 400px 0 0 610px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.dolanbtn1{
+    position: absolute;
+    margin: 400px 0 0 750px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.dolanbtn2{
+    position: absolute;
+    margin: 400px 0 0 860px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.tramadolbtn1{
+    position: absolute;
+    margin: 900px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.tramadolbtn2{
+    position: absolute;
+    margin: 900px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.injectionbtn1{
+    position: absolute;
+    margin: 900px 0 0 250px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.injectionbtn2{
+    position: absolute;
+    margin: 900px 0 0 360px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.pirobtn1{
+    position: absolute;
+    margin: 900px 0 0 500px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.pirobtn2{
+    position: absolute;
+    margin: 900px 0 0 610px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.caffebtn1{
+    position: absolute;
+    margin: 900px 0 0 750px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.caffebtn2{
+    position: absolute;
+    margin: 900px 0 0 860px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.diclobtn1{
+    position: absolute;
+    margin: 1380px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.diclobtn2{
+    position: absolute;
+    margin: 1380px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.docs{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: #9b9999;
+    margin-top: 2000px;
+}
+/*infection css*/
+.acy{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 20px;
+    background-image: url(/pills/Acyclovir-Tablets-400mg.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.amoxicillin{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 260px;
+    background-image: url(/pills/Amoxicillin-Powder-Antibiotic-for-Suspension-125mg-5ml-60ml-with-GMP.avif);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.cefixime{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 500px;
+    background-image: url(/pills/Cef-400.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.ciprofloxacin{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 10px 0 0 750px;
+    background-image: url(/pills/ciprofloxacin.jfif);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.metronidazole{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 20px;
+    background-image: url(/pills/Metronidazole-infus-500mg-3D.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.metronidazole1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 260px;
+    background-image: url(/pills/metronidazole-tablets-200mg.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.amoxicillin1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 500px;
+    background-image: url(/pills/Amoxicillin-Oral-Suspension-125mg-250mg-5ml-100ml-Bottle-OEM-ODM-Services.avif);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.neomycin{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 510px 0 0 750px;
+    background-image: url(/pills/Neo_Poly_Bac_3.webp);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.levofloxacin{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 1000px 0 0 20px;
+    background-image: url(/pills/diclofenac.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+/* infection buttons*/
+.acybtn1{
+    position: absolute;
+    margin: 400px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.acybtn2{
+    position: absolute;
+    margin: 400px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.amoxbtn1{
+    position: absolute;
+    margin: 400px 0 0 250px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.amoxbtn2{
+    position: absolute;
+    margin: 400px 0 0 360px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.cefbtn1{
+    position: absolute;
+    margin: 400px 0 0 500px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.cefbtn2{
+    position: absolute;
+    margin: 400px 0 0 610px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.ciprobtn1{
+    position: absolute;
+    margin: 400px 0 0 750px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.ciprobtn2{
+    position: absolute;
+    margin: 400px 0 0 860px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.metrobtn1{
+    position: absolute;
+    margin: 900px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.metrobtn2{
+    position: absolute;
+    margin: 900px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.metro1btn1{
+    position: absolute;
+    margin: 900px 0 0 250px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.metro1btn2{
+    position: absolute;
+    margin: 900px 0 0 360px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.amo1btn1{
+    position: absolute;
+    margin: 900px 0 0 500px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.amo1btn2{
+    position: absolute;
+    margin: 900px 0 0 610px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.neobtn1{
+    position: absolute;
+    margin: 900px 0 0 750px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.neobtn2{
+    position: absolute;
+    margin: 900px 0 0 860px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.levobtn1{
+    position: absolute;
+    margin: 1380px 0 0 10px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.levobtn2{
+    position: absolute;
+    margin: 1380px 0 0 120px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+/*infection links*/
+.acyclovir{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 20px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.acyclovir:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.amoxi-cillin{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 250px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.amoxi-cillin:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.cefi-xime{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 510px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.cefi-xime:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.floxacin{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 320px 0 0 760px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.floxacin:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.metro{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 10px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.metro:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.metro1{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 260px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.metro1:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.amoxi-cillin1{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 500px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.amoxi-cillin1:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.neo{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 820px 0 0 750px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.neo:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.levo{
+    position: absolute;
+    width: 300px;
+    text-decoration: none;
+    margin: 1310px 0 0 10px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.levo:hover{
+    color: purple;
+    text-decoration: underline;
+}
