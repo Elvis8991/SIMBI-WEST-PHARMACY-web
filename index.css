@@ -48,11 +48,13 @@ nav a:hover{
 }
 .search_bar span{
     position: absolute;
-    margin: 0 0 0 350px;
+    margin: 0 0 0 340px;
     color: #9b9999;
+    background-color: rgb(4, 4, 29);
+    height: 40px;
+    border-radius: 16px;
 }
 .material-symbols-outlined {
-    position: relative;
     display: flex;
     padding: 10px;
     font-variation-settings:
@@ -329,6 +331,28 @@ nav a:hover{
     border: 3px solid darkblue;
     border-radius: 8px;
 }
+.box4{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 40px 0 0 60rem;
+    background-image: url(/myimages/pulsegaurd.webp);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.box5{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 40px 0 0 80rem;
+    background-image: url(/myimages/pulsegaurd.webp);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
 .obangi{
     position: absolute;
     width: 300px;
@@ -371,6 +395,21 @@ nav a:hover{
     color: purple;
     text-decoration: underline;
 }
+.xxxbox4{
+    position: absolute;
+    width: 180px;
+    text-decoration: none;
+    margin: 360px 0 0 960px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.xxxbox4:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
 .offer__boxes{
     position: absolute;
     display: inline-flex;
@@ -407,6 +446,17 @@ nav a:hover{
     width: 200px;
     margin: 600px 0 0 650px;
     background-image: url(/myimages/xtandi_945224.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.box5{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 600px 0 0 60rem;
+    background-image: url(/myimages/pulsegaurd.webp);
     background-position: center;
     background-size: cover;
     border: 3px solid darkblue;
@@ -469,6 +519,101 @@ nav a:hover{
     background-color: #fff;
     border: 2px solid darkblue;
 }
+.addbtn4{
+    position: absolute;
+    margin: 440px 0 0 960px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn4{
+    position: absolute;
+    margin: 440px 0 0 1070px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn5{
+    position: absolute;
+    margin: 440px 0 0 1280px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn5{
+    position: absolute;
+    margin: 440px 0 0 1390px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn6{
+    position: absolute;
+    margin: 440px 0 0 1600px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn6{
+    position: absolute;
+    margin: 440px 0 0 1710px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn7{
+    position: absolute;
+    margin: 440px 0 0 1920px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn7{
+    position: absolute;
+    margin: 440px 0 0 2030px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.addbtn8{
+    position: absolute;
+    margin: 440px 0 0 2240px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.viewbtn8{
+    position: absolute;
+    margin: 440px 0 0 2350px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
 .cartbtn1{
     position: absolute;
     margin: 980px 0 0 40px;
@@ -488,7 +633,7 @@ nav a:hover{
     background-color: #fff;
     border: 2px solid darkblue;
 }
-.cartbtn2{
+.cartbtn2{  
     position: absolute;
     margin: 980px 0 0 340px;
     border: none;
@@ -520,6 +665,25 @@ nav a:hover{
 .productbtn3{
     position: absolute;
     margin: 980px 0 0 760px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.cartbtn5{
+    position: absolute;
+    margin: 990px 0 0 960px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.productbtn5{
+    position: absolute;
+    margin: 990px 0 0 1070px;
     height: 40px;
     width: 100px;
     text-transform: capitalize;
@@ -568,9 +732,23 @@ nav a:hover{
     color: purple;
     text-decoration: underline;
 }
+.xxbox5{
+    position: absolute;
+    width: 180px;
+    text-decoration: none;
+    margin: 920px 0 0 960px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.xxbox5:hover{
+    color: purple;
+    text-decoration: underline;
+}
 .service{
     position: absolute;
-    margin: 1900px 0 0 0;
+    margin: 1200px 0 0 0;
     height: 500px;
     width: 100%;
 }
@@ -600,7 +778,7 @@ nav a:hover{
     color: #ddd;
 }
 .small__box{
-    position: relative;
+    position: absolute;
     margin: 20px 0 0 750px;
     background-color: #e7e4e4;
     height: 500px;
@@ -620,7 +798,7 @@ nav a:hover{
 }
 .service__content{
     position: absolute;
-    margin: 2500px 0 0 0;
+    margin: 1850px 0 0 0;
     height: 700px;
     width: 100%;
 }
@@ -750,7 +928,7 @@ nav a:hover{
 }
 .testimonials{
     position: absolute;
-    margin: 3170px 0 0 0;
+    margin: 2490px 0 0 0;
     height: 500px;
     width: 100%;
     background-color: #ddd;
@@ -779,7 +957,7 @@ nav a:hover{
 }
 .blog{
     position: absolute;
-    margin: 3700px 0 0 0;
+    margin: 3000px 0 0 0;
     height: 800px;
     width: 100%;
 }
@@ -853,7 +1031,6 @@ nav a:hover{
 .blog__box4 a:hover{
     color: red;
 }
-
 .blog__box5{
     height: 250px;
     width: 350px;
@@ -883,42 +1060,182 @@ nav a:hover{
     color: red;
 }
 footer{
-    margin: 4600px 0 0 0;
-    position: absolute;
+    margin: 3850px 0 0 0;
+    position: relative;
     height: 600px;
     width: 100%;
     background-color: rgb(1, 1, 102);
 }
-.logo{
-    position: absolute;
+.newsletter{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-image: url(/myimages/pharmacy-elements-kawaii-pattern-design-93b9a3.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.logo h2{
+.news{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    background-color: #9b9999;
+    margin: 40px 0 0 27rem;
+}
+.stay{
+    position: absolute;
     text-transform: uppercase;
+    margin: 40px 0 0 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
     color: #fff;
-    margin: 30px 0 0 20px;
-    font-size: 30px;
 }
-.socials{
+#newsletter{
     position: absolute;
-    margin: 70px 0 0 900px;
-}
-.fa-brands fa-square-instagram{
-    font-size: 32px;
-    color: red;
-    position: absolute;
-    background-color: #9b9999;
-}
-.socials a{
+    height: 50px;
+    width: 20rem;
+    margin: 7rem 0 0 6rem;
+    background-color: black;
     color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#newsletter:hover{
+    background-color: red;
+}
+.contact-s{
+    position: absolute;
+    margin: 3rem 0 0 3rem;
+    max-width: 15rem;
+    border: none;
+    border-radius: 8px;
+    height: 15rem;
+    width: 22rem;
+}
+.contacts_h2{  
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0.5rem 0 0 0.5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.contact-s__p{
+    margin: 0 0 0 0.5rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    color: orange;
+}
+.contact-s__P{
+    text-transform: capitalize;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    margin: 0.2rem 0 0 0.5rem;
+    color: #fff;
+}
+.shopping{
+    position: absolute;
+    margin: 3rem 0 0 23rem;
+}
+.shopping_1{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.shop_links{
+    text-transform: capitalize;
+    margin-top: 0.3rem;
+}
+.shop_links a{
+    color: orange;
+    display: block;
     text-decoration: none;
-    padding-left: 30px;
+    padding-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.lines{
-    margin: 100px 0 0 70px;
-    height: 3px;
-    width: 1200px;
-    background-color: #9b9999;
+.shop_links a:hover{
+    text-decoration: underline;
 }
+.support{
+    position: absolute;
+    margin: 3rem 0 0 40rem;
+}
+.support__h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.support__links{
+    text-transform: capitalize;
+    margin-top: 0.3rem;
+}
+.support__links a{
+    color: orange;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.support__links a:hover{
+    text-decoration: underline;
+}
+.about__us{
+    position: absolute;
+    margin: 3rem 0 0 53rem;
+}
+.about__h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.about__links{
+    text-transform: capitalize;
+    margin-top: 0.3rem;
+}
+.about__links a{
+    color: orange;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about__links a:hover{
+    text-decoration: underline;
+}
+.my__account{
+    position: absolute;
+    margin: 3rem 0 0 65rem;
+}
+.account__h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.account__links{
+    text-transform: capitalize;
+    margin-top: 0.3rem;
+}
+.account__links a{
+    color: orange;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.account__links a:hover{
+    text-decoration: underline;
+}
+
 
 /* pain css */
 .slides-container{
@@ -1043,6 +1360,41 @@ footer{
     border: 3px solid darkblue;
     border-radius: 8px;
 }
+.x1{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 1000px 0 0 260px;
+    background-image: url(/pills/diclofenac.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.x2{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 1000px 0 0 500px;
+    background-image: url(/pills/diclofenac.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+.x3{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    margin: 1000px 0 0 750px;
+    background-image: url(/pills/diclofenac.png);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+}
+
+
 /*pills links*/
 .ace__para{
     position: absolute;
@@ -1102,7 +1454,7 @@ footer{
 }
 .Tramadol{
     position: absolute;
-    width: 300px;
+    width: 190px;
     text-decoration: none;
     margin: 820px 0 0 10px;
     color: black;
@@ -1116,7 +1468,7 @@ footer{
 }
 .tramadol__injection{
     position: absolute;
-    width: 200px;
+    width: 180px;
     text-decoration: none;
     margin: 820px 0 0 260px;
     color: black;
@@ -1130,7 +1482,7 @@ footer{
 }
 .Piro{
     position: absolute;
-    width: 300px;
+    width: 190px;
     text-decoration: none;
     margin: 820px 0 0 500px;
     color: black;
@@ -1158,7 +1510,7 @@ footer{
 }
 .Diclo{
     position: absolute;
-    width: 300px;
+    width: 180px;
     text-decoration: none;
     margin: 1310px 0 0 10px;
     color: black;
@@ -1170,6 +1522,50 @@ footer{
     color: purple;
     text-decoration: underline;
 }
+.x{
+    position: absolute;
+    width: 180px;
+    text-decoration: none;
+    margin: 1310px 0 0 260px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.x:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.xx{
+    position: absolute;
+    width: 190px;
+    text-decoration: none;
+    margin: 1310px 0 0 500px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.xx:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.xxx{
+    position: absolute;
+    width: 200px;
+    text-decoration: none;
+    margin: 1310px 0 0 750px;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 500;  
+}
+.xxx:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+
 /*pills buttons*/
 .acebtn1{
     position: absolute;
@@ -1344,11 +1740,86 @@ footer{
 }
 .docs{
     position: absolute;
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-color: #9b9999;
     margin-top: 2000px;
 }
+.docs h2{
+    justify-self: center;
+    align-self: center;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.docs p{
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    max-width: 100rem;
+    margin: 10px 0 0 30px;
+}
+.xbtn1{
+    position: absolute;
+    margin: 1380px 0 0 250px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.xbtn2{
+    position: absolute;
+    margin: 1380px 0 0 360px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.xxbtn1{
+    position: absolute;
+    margin: 1380px 0 0 500px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.xxbtn2{
+    position: absolute;
+    margin: 1380px 0 0 610px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+.xxxbtn1{
+    position: absolute;
+    margin: 1380px 0 0 750px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: darkblue;
+    color: #fff;
+}
+.xxxbtn2{
+    position: absolute;
+    margin: 1380px 0 0 860px;
+    height: 40px;
+    width: 100px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 2px solid darkblue;
+}
+
+
 /*infection css*/
 .acy{
     position: absolute;
@@ -1747,4 +2218,36 @@ footer{
 .levo:hover{
     color: purple;
     text-decoration: underline;
+}
+
+/*movebtns*/
+.movebtns{
+    position: absolute;
+    margin: 1920px 0 0 950px;
+}
+.previous{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.previous:hover{
+    background-color: red;
+    border-radius: 8px;
+}
+.next{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.next:hover{
+    background-color: red;
+    border-radius: 8px;
 }
