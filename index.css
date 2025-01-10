@@ -2272,6 +2272,443 @@ footer{
     background-color: red;
     border-radius: 8px;
 }
+@media (320px <= width <= 500px){
+    header{
+        flex-direction: column;
+        height: 10px;
+        width: 100;
+    }
+    nav{
+        display: none;
+    }
+    .dropdown__btns{
+        display:inline-flex;
+        margin: 20px0 0 60px;
+    }
+    .s1{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .s2{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .s3{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .s4{
+        font-size: 10px;
+        margin-left: -5px;
+        max-width: 100px;
+    }
+    .search_bar{
+        margin: 10px 0 0 30px;
+    }
+    .search_bar input{
+        height: 20px;
+        width: 100px;
+        font-size: 8px;
+    }
+    .searchbtn{
+        margin: 0px 0 0 100px;
+        height: 20px;
+        width:40px;
+        font-size: 8px;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .Whatsapp{
+        margin: 5px 0 0 230px;
+    }
+    .Whatsapp a{
+        font-size: 10px;
+        max-width: 70px;
+    }
+    .container{
+        flex-direction: column;
+        height: 180px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .container h1{
+        font-size: 15px;
+        margin: 30px 0 0 20px;
+        max-width: 290px;
+    }
+    .container p{
+        font-size: 10px;
+        max-width: 200px;
+        text-align: center;
+        margin: 75px 0 0 70px;
+    }
+    .buttons{
+        display: inline-flex;
+        margin: 120px 0 0 60px;
+    }
+    #about{
+        height: 30px;
+        width: 100px;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+    #book{
+        height: 30px;
+        width: 100px;
+        border-radius: 4px;
+        font-size: 10px;
+        margin-left: 10px;
+        border: 1px solid darkblue;
+    }
+    .offers-container{
+        margin-top: 230px;
+    }
+    .offerh2{
+        margin: 30px 0 0 110px;
+        font-size: 20px;
+    }
+    .box1{
+        margin-left: 20px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .obangi{
+        margin: 200px 0 0 20px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .addbtn1{
+        margin: 260px 0 0 20px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .viewbtn1{
+        margin: 260px 0 0 85px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .box2{
+        margin-left: 170px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .Avandia{
+        margin: 200px 0 0 170px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .addbtn2{
+        margin: 260px 0 0 170px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .viewbtn2{
+        margin: 260px 0 0 235px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .box3{
+        position: absolute;
+        margin: 330px 0 0 20px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .pulse{
+        margin: 490px 0 0 20px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .addbtn3{
+        margin: 570px 0 0 20px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .viewbtn3{
+        margin: 570px 0 0 85px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .box4{
+        position: absolute;
+        margin: 330px 0 0 170px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .xxxbox4{
+        margin: 490px 0 0 170px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .addbtn4{
+        margin: 570px 0 0 170px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .viewbtn4{
+        margin: 570px 0 0 235px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .offer__boxes{
+        margin-top: 100px;
+    }
+    .boxh2{
+        position: absolute;
+        margin-left: 150px;
+        font-size: 20px;
+    }
+    .b1{
+        margin: 600px 0 0 20px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .tranquillonin{
+        margin: 760px 0 0 20px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .cartbtn1{
+        margin: 830px 0 0 20px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .productbtn1{
+        margin: 830px 0 0 85px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .b2{
+        margin: 600px 0 0 170px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .pheburane{
+        margin: 760px 0 0 170px;
+        font-size: 15px;
+        max-width: 100px;
+    }
+    .cartbtn2{
+        margin: 830px 0 0 170px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .productbtn2{
+        margin: 830px 0 0 235px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .b3{
+        margin: 900px 0 0 20px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .XTANDI{
+        margin: 1060px 0 0 20px;
+        max-width: 100px;
+    }
+    .cartbtn3{
+        margin: 1170px 0 0 20px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .productbtn3{
+        margin: 1170px 0 0 85px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .box5{
+        margin: 900px 0 0 170px;
+        height: 150px;
+        width: 100px;
+        border: 0.5px solid darkblue;
+    }
+    .xxbox5{
+        margin: 1060px 0 0 170px;
+        max-width: 100px;
+    }
+    .cartbtn5{
+        margin: 1170px 0 0 170px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .productbtn5{
+        margin: 1170px 0 0 235px;
+        height: 30px;
+        width: 60px;
+        font-size: 10px;
+        padding: auto;
+    }
+    .service{
+        margin-top: 1300px;
+    }
+    .diff h1{
+        font-size: 30px;
+        max-width: 300px;
+        margin: 15px 0 0 -15px;
+    }
+    .diff p{
+        font-size: 13px;
+        max-width: 300px;
+        margin: 5px 0 0 -15px;
+    }
+    .aboutbtn{
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 4px;
+        margin: 15px 0 0 30px;
+    }
+    .small__box{
+        margin: 330px 0 0 28px;
+        height: 400px;
+        width: 280px;
+    }
+    .small__box h1{
+        font-size: 20px;
+    }
+    .small__box p{
+        font-size: 12px;
+        max-width: 200px;
+    }
+    .service__content{
+        margin-top: 2050px;
+    }
+    .service__content h4{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    .service__content h2{
+        margin: 45px 0 0 70px;
+        font-size: 25px;
+    }
+    .service__boxes{
+        display: block;
+    }
+    .service__box1{
+        height: 200px;
+        width: 300px;
+        margin: 10px 0 0 20px;
+    }
+    .service__box1 img{
+        height: 200px;
+        width: 300px;
+    }
+    .service__box2{
+        height: 200px;
+        width: 300px;
+        margin: 100px 0 0 20px;
+    }
+    .service__box2 img{
+        height: 200px;
+        width: 300px;
+    }
+    .press{
+        margin: 50px 0 0 20px;
+    }
+    .pressp{
+        margin-left: 430px;
+        max-width: 200px;
+    }
+    .service__box1 a{
+        margin: 20px 0 0 430px;
+        max-width: 400px;
+        background-color: #9b9999;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+        color: #fff;
+    }
+    .service__box2{
+        margin-top: -170px;
+    }
+    .heal{
+        margin: -260px 0 0 430px;
+        min-width: 200px;
+    }
+    .healp{
+        margin-left: 430px;
+        max-width: 250px;
+    }
+    .service__box2 a{
+        margin: 20px 0 0 430px;
+        max-width: 300px;
+        background-color: #9b9999;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+        color: #fff;
+    }
+    .service__box3{
+        margin-top: -170px;
+    }
+    .screen{
+        margin: -250px 0 0 430px;
+    }
+    .screenp{
+        margin-left: 430px;
+        max-width: 200px;
+    }
+    .service__box3 a{
+        margin: 20px 0 0 430px;
+        max-width: 400px;
+        background-color: #9b9999;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 20px;
+        align-self: center;
+        justify-self: center;
+        color: #fff;
+    }
+    .testimonials{
+        margin-top: 4000px;
+    }
+}
 @media (500px <= width <= 768px) {
     /* index.html css*/
     header{
