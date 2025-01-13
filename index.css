@@ -159,7 +159,7 @@ nav a:hover{
 }
 .dropdown__content{
     display: none;
-    margin: 45px 0 0 40px;
+    margin: 35px 0 0 40px;
     position: absolute;
     min-width: 300px;
     background-color: #ffffffff;
@@ -194,7 +194,7 @@ nav a:hover{
 }
 .category__content{
     display: none;
-    margin: 45px 0 0 40px;
+    margin: 35px 0 0 40px;
     position: absolute;
     min-width: 190px;
     background-color: #ffffffff;
@@ -2363,10 +2363,10 @@ footer{
         border: 1px solid darkblue;
     }
     .offers-container{
-        margin-top: 230px;
+        margin: 230px 0 0 50PX;
     }
     .offerh2{
-        margin: 30px 0 0 110px;
+        margin: 30px 0 0 70px;
         font-size: 20px;
     }
     .box1{
@@ -2476,7 +2476,7 @@ footer{
     }
     .boxh2{
         position: absolute;
-        margin-left: 150px;
+        margin-left: 120px;
         font-size: 20px;
     }
     .b1{
@@ -2578,7 +2578,7 @@ footer{
         padding: auto;
     }
     .service{
-        margin-top: 1300px;
+        margin: 1300px 0 0 -40px;
     }
     .diff h1{
         font-size: 30px;
@@ -2610,7 +2610,7 @@ footer{
         max-width: 200px;
     }
     .service__content{
-        margin-top: 2050px;
+        margin: 2050px 0 0 -40px;
     }
     .service__content h4{
         margin-left: 100px;
@@ -2621,7 +2621,7 @@ footer{
         font-size: 25px;
     }
     .service__boxes{
-        display: block;
+        display: absolute;
     }
     .service__box1{
         height: 200px;
@@ -2642,14 +2642,16 @@ footer{
         width: 300px;
     }
     .press{
-        margin: 50px 0 0 20px;
+        margin: 10px 0 0 20px;
+        max-width: 300px;
+        font-size: 25px;
     }
     .pressp{
-        margin-left: 430px;
-        max-width: 200px;
+        margin-left: 20px;
+        max-width: 300px;
     }
     .service__box1 a{
-        margin: 20px 0 0 430px;
+        margin: 10px 0 0 20px;
         max-width: 400px;
         background-color: #9b9999;
         height: 30px;
@@ -2661,18 +2663,19 @@ footer{
         color: #fff;
     }
     .service__box2{
-        margin-top: -170px;
+        margin: 380px 0 0 -295px;
     }
     .heal{
-        margin: -260px 0 0 430px;
+        margin: 10px 0 0 15px;
         min-width: 200px;
+        font-size: 25px;
     }
     .healp{
-        margin-left: 430px;
-        max-width: 250px;
+        margin-left: 15px;
+        max-width: 300px;
     }
     .service__box2 a{
-        margin: 20px 0 0 430px;
+        margin: 10px 0 0 20px;
         max-width: 300px;
         background-color: #9b9999;
         height: 30px;
@@ -2684,17 +2687,18 @@ footer{
         color: #fff;
     }
     .service__box3{
-        margin-top: -170px;
+        margin: 810px 0 0 -295px;
     }
     .screen{
-        margin: -250px 0 0 430px;
+        margin: 10px 0 0 10px;
+        font-size: 25px;
     }
     .screenp{
-        margin-left: 430px;
-        max-width: 200px;
+        margin-left: 10px;
+        max-width: 300px;
     }
     .service__box3 a{
-        margin: 20px 0 0 430px;
+        margin: 10px 0 0 10px;
         max-width: 400px;
         background-color: #9b9999;
         height: 30px;
@@ -2706,7 +2710,150 @@ footer{
         color: #fff;
     }
     .testimonials{
-        margin-top: 4000px;
+        margin: 3350px 0 0 -40px;
+        height: 600px;
+        width: 100%;
+    }
+    .testimonials img{
+        height: 345px;
+    }
+    .testh2{
+        margin: 350px 0 0 30px;
+        font-size: 25px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .testp{
+        margin: 430px 0 0 40px;
+        font-size: 17px;
+        max-width: 280px;
+    }
+    .blog{
+        margin: 3900px 0 0 -40px;
+    }
+    .blogh1{
+        margin: 70px 0 0 60px;
+        font-size: 30px;
+    }
+    .blog__boxesup{
+        display: block;
+    }
+    .blog__boxesdwn{
+        display: block;
+    }
+    .blog__box1{
+        height: 100px;
+        width: 150px;
+        margin: 20px 0 0 20px;
+    }
+    .blog__box1 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box1 a{
+        font-size: 12px;
+    }
+    .blog__box2{
+        height: 100px;
+        width: 150px;
+        margin: 90px 0 0 20px;
+    }
+    .blog__box2 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box2 a{
+        font-size: 12px;
+    }
+    .blog__box3{
+        height: 100px;
+        width: 150px;
+        margin: 70px 0 0 20px;
+    }
+    .blog__box3 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box3 a{
+        font-size: 12px;
+    }
+    .blog__box4{
+        height: 100px;
+        width: 150px;
+        margin: 20px 0 0 200px;
+    }
+    .blog__box4 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box4 a{
+        font-size: 12px;
+    }
+    .blog__box5{
+        height: 100px;
+        width: 150px;
+        margin: 70px 0 0 200px;
+    }
+    .blog__box5 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box5 a{
+        font-size: 12px;
+    }
+    .blog__box6{
+        height: 100px;
+        width: 150px;
+        margin: 90px 0 0 200px;
+    }
+    .blog__box6 img{
+        height: 100px;
+        width: 150px;
+    }
+    .blog__box6 a{
+        font-size: 12px;
+    }
+    footer{
+        margin: 4600px 0 0 -40px;
+        height: 1200px;
+    }
+    .news{
+        margin-left: 35px;
+        height: 200px;
+        width: 300px;
+    }
+    .stay{
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    #newsletter{
+        margin: 90px 0 0 30px;
+        height: 50px;
+        width: 250px;
+    }
+    .contact-s{
+        margin: 20px 0 0 30px;
+    }
+    .contacts_h2{
+        font-size: 25px;
+    }
+    .contact-s__p{
+        font-size: 12px;
+    }
+    .contact-s__P{
+        font-size: 15px;
+    }
+    .shopping{
+        margin: 170px 0 0 50px;
+    }
+    .support{
+        margin: 400px 0 0 50px;
+    }
+    .about__us{
+        margin: 600px 0 0 50px;
+    }
+    .my__account{
+        margin: 720px 0 0 50px;
     }
 }
 @media (500px <= width <= 768px) {
