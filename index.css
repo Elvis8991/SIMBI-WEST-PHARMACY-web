@@ -2299,11 +2299,11 @@ footer{
     }
     .s4{
         font-size: 10px;
-        margin-left: -5px;
-        max-width: 100px;
+        margin-left: 10px;
+        max-width: 200px;
     }
     .search_bar{
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 80px;
     }
     .search_bar input{
         height: 20px;
@@ -2320,7 +2320,7 @@ footer{
         text-align: center;
     }
     .Whatsapp{
-        margin: 5px 0 0 230px;
+        margin: 5px 0 0 280px;
     }
     .Whatsapp a{
         font-size: 10px;
@@ -2358,7 +2358,7 @@ footer{
         height: 30px;
         width: 100px;
         border-radius: 4px;
-        font-size: 10px;
+        font-size: 9px;
         margin-left: 10px;
         border: 1px solid darkblue;
     }
@@ -2604,6 +2604,7 @@ footer{
     }
     .small__box h1{
         font-size: 20px;
+        margin-top: -20px;
     }
     .small__box p{
         font-size: 12px;
@@ -2655,7 +2656,7 @@ footer{
         max-width: 400px;
         background-color: #9b9999;
         height: 30px;
-        width: 100px;
+        width: 150px;
         border: none;
         font-size: 20px;
         align-self: center;
@@ -2663,7 +2664,7 @@ footer{
         color: #fff;
     }
     .service__box2{
-        margin: 380px 0 0 -295px;
+        margin: 400px 0 0 -295px;
     }
     .heal{
         margin: 10px 0 0 15px;
@@ -2679,7 +2680,7 @@ footer{
         max-width: 300px;
         background-color: #9b9999;
         height: 30px;
-        width: 100px;
+        width: 150px;
         border: none;
         font-size: 20px;
         align-self: center;
@@ -2687,7 +2688,7 @@ footer{
         color: #fff;
     }
     .service__box3{
-        margin: 810px 0 0 -295px;
+        margin: 870px 0 0 -295px;
     }
     .screen{
         margin: 10px 0 0 10px;
@@ -2702,7 +2703,7 @@ footer{
         max-width: 400px;
         background-color: #9b9999;
         height: 30px;
-        width: 100px;
+        width: 150px;
         border: none;
         font-size: 20px;
         align-self: center;
@@ -2710,7 +2711,7 @@ footer{
         color: #fff;
     }
     .testimonials{
-        margin: 3350px 0 0 -40px;
+        margin: 3500px 0 0 -40px;
         height: 600px;
         width: 100%;
     }
@@ -2729,7 +2730,7 @@ footer{
         max-width: 280px;
     }
     .blog{
-        margin: 3900px 0 0 -40px;
+        margin: 4050px 0 0 -40px;
     }
     .blogh1{
         margin: 70px 0 0 60px;
@@ -2814,8 +2815,8 @@ footer{
         font-size: 12px;
     }
     footer{
-        margin: 4600px 0 0 -40px;
-        height: 1200px;
+        margin: 4710px 0 0 -40px;
+        height: 1100px;
     }
     .news{
         margin-left: 35px;
